@@ -5,29 +5,31 @@
 </head>
 <body >
 <div>
-	<table border="1px solid" style="width:100%;height:100%;border-collapse:collapse;">
-		<tr>
+	<table border="0px solid" style="width:100%;height:100%;border-collapse:collapse;border-left:1px solid;border-right:1px solid;">
+		<tr style="border:1px solid; ">
 			<td colspan="2" style="height:50px;">
 				<div style="float:left;padding:0px;margin:0px;float:top;margin-left:20px;"><img src="download.jpeg" style="height:40px;margin-top:10px;"></div>
 				<div style="padding:0px;float:right;margin-right:65%;"><h1>HEADER</h1></div>
 			</td>
 		</tr>
-		<tr>
-			<td>
+		<tr style="height:50px;">
+			<td style="border-right:1px solid;">
+
 				<form>
 					<div style="float:center;">
-				<table border="1px solid" style="width:50%;height:50%;margin-left:25%;border-spacing:0px;">
+				<table border="0px solid" style="width:60%;margin-left:20%;height:100%;border-spacing:0px;border-top:1px solid;">
+					<caption >Add Employee Detail</caption>
 					<tr>
-						<td style="width:50%;">Name</td>
+						<td style="width:50%;border-right:1px dashed;">Name</td>
 						<td>Last Education</td>
 					</tr>
 										<tr>
-						<td><input type="name" placeholder="Enter Your Name"></td>
+						<td style="border-right:1px dashed"><input type="name" placeholder="Enter Your Name"></td>
 						<td><input type="radio" name="r1">B.E<input type="radio" name="r1">ME<input type="radio" name="r1">BCA</td>
 					</tr>
 
   					<tr>
-						<td>Experiance
+						<td style="border-right:1px dashed">Experiance
 							<select>
 							<option>1 year</option>
 							<option>2 year</option>
@@ -38,7 +40,7 @@
 					</tr>
 
 						<tr>
-							<td>Technology<br><input type="checkbox">Javascript<br><input type="checkbox">PHP<br>
+							<td style="border-right:1px dashed">Technology<br><input type="checkbox">Javascript<br><input type="checkbox">PHP<br>
 								              <input type="checkbox">python</td>
 						    <td>
 						  <fieldset>
@@ -56,8 +58,31 @@
 				</table>
 			</form>
 			</td>
-			<td>
-				Notice Board
+			<td style="width:25%;">
+				<p style="margin-left:82px;margin-top:-0px;float:center;font-size:30px;"><span style="color:red;">N</span><span style="color:yellow;">o</span><span style="color:blue;">t</span>ice Board</p>
+				<div>
+					<ul style="list-style-type:disc;"><li>point-1</li></ul>
+					<div style="margin-left:5px;"><ol type="I" "><li >sub point-1</li>
+					<li >sub point-2</li>
+					<li >sub point-3</li>
+					</ol></div>
+			
+				</div>
+
+				<div>
+					<ul style="list-style-type:disc;"><li>point-2</li></ul>
+					<div style="margin-left:5px;"><ol type="a" "><li >sub point-1</li>
+					<li >sub point-2</li>
+					<li >sub point-3</li>
+					</ol></div>
+			
+				</div>
+			</td>
+
+		</tr>
+		<tr>
+			<td colspan="2">
+				<input type="button" name="btn1" value="Add Detail" style="margin-left:440px;">
 			</td>
 		</tr>
 	</table>
