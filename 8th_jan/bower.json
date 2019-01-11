@@ -1,0 +1,22 @@
+{
+  "name": "8th_jan",
+  "homepage": "https://github.com/priyank2597/html-task-1",
+  "authors": [
+    "priyank2597 <priyank2597@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "3.3.7",
+    "fontawesome": "^5.6.3",
+    "jquery": "^3.3.1"
+  }
+}

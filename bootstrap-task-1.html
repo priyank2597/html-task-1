@@ -1,0 +1,117 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<style>
+		/*.row.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  }*/
+</style>
+<body>
+
+	<div class="container-fluid">
+		<div class="row ">
+			
+			<div class="col-md-3 col-xs-4 " style="background:;"><img src="download.jpeg" style="height:80px;width:80px;"></div>
+			<div class="col-md-9 col-xs-8 " style="background:;"><h1 style="height:50px;margin-left:30px;">HEADER</h1></div>
+		</div>
+	</div>
+	<div class="row " style="height:400px;background-color:pink">
+		<div class="col-md-8 col-xs-12" style="border-left:2px solid black;background-color:lightgray;min-height:400px;">
+			<div class="row">
+				<h3 class="text-center">Add Employee Details</h3>
+			</div>
+			<div class="row row-eq-height">
+				<div class="col-md-6 col-xs-12 bg-success" style="border-right:2px dashed black">
+					<div class="form-group">
+						<label style="font-size:20px;" class="col-md-offset-1">Name</label>
+						<input type="email" class="form-control" style="max-width:350px;margin-left:30px"><br>
+						<div><label style="font-size:20px;" class="col-md-offset-1">Experiance</label>
+							<select style="width:200px;height:20px;">
+								<option>1 year</option>
+								<option>2 year</option>
+								<option>3 year</option>
+							</select>
+						</div><br>
+						<div>
+							<label style="font-size:20px;" class="col-md-offset-1">Technology</label><br>
+							<input type="checkbox" style="margin-left:40px";>
+							<font style="font-size:20px;">javascript</font><br>
+							<input type="checkbox" style="margin-left:40px";>
+							<font style="font-size:20px;">PHP</font><br>
+							<input type="checkbox" style="margin-left:40px";>
+							<font style="font-size:20px;">Python</font>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-xs-12 bg-danger">
+					<label style="font-size:20px;" class="col-md-offset-1">Last Name</label><br>
+					<input type="radio" name="btn" style="width:60px;margin-left:10px">
+					<font style="font-size:20px;">B.E</font>
+					<input type="radio" name="btn" style="width:60px;margin-left:10px">
+					<font style="font-size:20px;">M.E</font>
+					<input type="radio" name="btn" style="width:60px;margin-left:10px">
+					<font style="font-size:20px;">BCA</font>
+					<input type="radio" name="btn" style="width:60px;margin-left:10px">
+					<font style="font-size:20px;">Diploma</font>
+					<div>
+						<fieldset style="border:2px solid black;padding:15px;">
+							<legend style="width:135px;pading:0px;border:solid 0px;"> 
+								Contact Detail
+							</legend>
+							<label style="font-size:20px;" class="col-md-offset-1">Email:&nbsp</label>
+							<input type="Email" placeholder="Enter your email"><br>
+							<label style="font-size:20px;" class="col-md-offset-1">Phone:</label>
+							<input type="number" placeholder="Enter your contact no"><br>
+							<label style="font-size:20px;" class="col-md-offset-1">Skype:</label>
+							<input type="name" placeholder="Enter your skype"><br>
+						</fieldset>  
+					</div>
+
+				</div>
+			</div>
+
+			<div class="row text-center">
+				<input type="submit" name="submit" value="Add Detail" 
+				class="btn btn-danger text-center" style="margin:10px">
+			</div>
+
+		</div>
+		<div class="col-md-4 col-xs-12" style="background:yellow;border-left:2px solid black;border-right:2px solid black;min-height:400px;">
+			<h2>NOTICE BOARD</h2>
+			<div>
+
+				<ul style="list-style-type:disc;"><li style="font-size:20px;" data-toggle="collapse" data-target="#demo">point-1</li></ul>
+				<div class="col-md-offset-1"  style="font-size:20px;">
+					<center><ol type="I" id="demo" class="collapse" 
+						style="background:white;border:1px solid;">
+						<li >sub point-1</li>
+						<li >sub point-2</li>
+						<li >sub point-3</li>
+					</ol></center>
+				</div>
+
+				<ul style="list-style-type:disc;"><li style="font-size:20px;"data-toggle="collapse" data-target="#demo1">point-2</li></ul>
+				<div class="col-md-offset-1"  style="font-size:20px;">
+					<center><ol type="a" id="demo1" class="collapse" 
+						style="background:white;border:1px solid;">
+						<li >sub point-1</li>
+						<li >sub point-2</li>
+						<li >sub point-3</li>
+					</ol></center>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+</body>
+</html>

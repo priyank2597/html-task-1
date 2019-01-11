@@ -1,0 +1,153 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="bootstrap-task-1.css">
+	</head>
+	<style>
+
+  @media only screen and (min-width:768px) {
+  	.line-remove {
+  		border-left:2px solid black;
+  	}
+  }
+
+</style>
+<body>
+
+	<div class="container-fluid ">
+		<div class="row header-border">
+
+			<div class="col-md-3 col-xs-4 ";"><img src="download.jpeg" class="header-logo"></div>
+			<div class="col-md-9 col-xs-8 " ><h1 class="header-height-margin">HEADER</h1></div>
+		</div>
+
+		<div class="row add-employee-deatail" >
+			<div class="col-md-8 col-xs-12 add-employee-detail-color add-employee-detail-left-border add-employee-detail-hight">
+				<div class="row">
+					<h3 class="text-center">Add Employee Details</h3>
+				</div>
+				<div class="row" >
+					<div class="col-md-6 col-xs-12 bg-success add-employee-detail-right-border">
+						<div class="form-group">
+							<label class="col-md-offset-1 font-size">Name</label>
+							<input type="email" class="form-control input-text-name"><br>
+							<div><label class="col-md-offset-1 font-size">Experiance</label>
+								<select class="select-height-width" style="width:200px;height:20px;">
+									<option>1 year</option>
+									<option>2 year</option>
+									<option>3 year</option>
+								</select>
+							</div><br>
+							<div>
+								<label class="col-md-offset-1 font-size">Technology</label><br>
+								<input type="checkbox" class="technology-margin-left">
+								<font style="font-size:20px;">javascript</font><br>
+								<input type="checkbox" class="technology-margin-left">
+								<font style="font-size:20px;">PHP</font><br>
+								<input type="checkbox" style="margin-left:40px";>
+								<font style="font-size:20px;">Python</font>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-6 col-xs-12 bg-danger last-name-height">
+						<label class="col-md-offset-1 font-size">Last Name</label><br>
+						<input type="radio" name="btn" class="radio-button-margin radio-button-width">
+						<font  class="font-size">B.E</font>
+						<input type="radio" name="btn" class="radio-button-width radio-button-margin">
+						<font class="font-size">M.E</font>
+						<input type="radio" name="btn" class="radio-button-width radio-button-margin">
+						<font class="font-size">BCA</font>
+						<input type="radio" name="btn" class="radio-button-width radio-button-margin">
+						<font class="font-size">Diploma</font>
+						<div class ="row contact-detail-block-border contact-detail-margin contact-detail-height">
+							<div class="col-md-12 contact-detail-margin">
+							<span class="text-center font-size" style="position: absolute; top:-35px; background-color: #f5dcdd;margin-left: 30px; padding: 5px;">
+								Contact Details
+							</span>
+							<!-- <div class="row"> -->
+							
+								<div class="row">
+									<div class="col-md-4 font-size"><label>Email:&nbsp</label></div>
+									<div class="col-md-8"><input type="Email" placeholder="Enter your email"></div><br>
+								</div>
+								<div class="row">
+									<div class="col-md-4 font-size"><label>Phone:</label></div>
+									<div class="col-md-8"><input type="number" placeholder="Enter your contact no"></div><br>
+								</div>
+								<div class="row">
+									<div class="col-md-4 font-size"><label>Skype:</label></div>
+									<div class="col-md-8"><input type="text" placeholder="Enter your skype"></div><br>
+								</div>
+							
+							<!-- </div> -->
+						</div>
+						</div>
+
+					</div>
+				
+				</div>
+
+				<div class="row text-center">
+					<input type="submit" name="submit" value="Add Detail" 
+					class="btn btn-danger text-center add-detail-button">
+				</div>
+
+			</div>
+			<div class="col-md-4 col-xs-12 line-remove notice-board-background-color notice-board-height notice-board-right-border">
+				<h2>NOTICE BOARD</h2>
+				<div>
+
+					<ul class="unordered-list-type font-size">
+						<li data-toggle="collapse" data-target="#demo">point-1</li></ul>
+						<div class="col-md-offset-1 font-size">
+							<center><ol type="I" id="demo" class="collapse ordered-list-background ordered-list-border">
+								<li >sub point-1</li>
+								<li >sub point-2</li>
+								<li >sub point-3</li>
+							</ol></center>
+						</div>
+
+						<ul class="unordered-list-type font-size">
+							<li data-toggle="collapse" data-target="#demo1">point-2</li></ul>
+							<div class="col-md-offset-1 font-size">
+								<center><ol type="a" id="demo1" class="collapse ordered-list-background 
+									ordered-list-border">
+									<li >sub point-1</li>
+									<li >sub point-2</li>
+									<li >sub point-3</li>
+								</ol></center>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+			</body>
+			</html>
+
+
+
+
+
+
+
+
+
+
+<!-- <fieldset style="border:2px solid black;padding:15px;">
+							<legend style="width:135px;pading:0px;border:solid 0px;"> 
+								Contact Detail
+							</legend>
+							<label style="font-size:20px;" class="col-md-offset-1">Email:&nbsp</label>
+							<input type="Email" placeholder="Enter your email"><br>
+							<label style="font-size:20px;" class="col-md-offset-1">Phone:</label>
+							<input type="number" placeholder="Enter your contact no"><br>
+							<label style="font-size:20px;" class="col-md-offset-1">Skype:</label>
+							<input type="name" placeholder="Enter your skype"><br>
+						</fieldset>   -->
